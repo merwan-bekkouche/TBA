@@ -69,13 +69,13 @@ class Game:
 
     # Process the command entered by the player
     def process_command(self, command_string) -> None:
-
+        if not command_string:   #if the word isn't in the command string we do nothing
+            return
         # Split the command string into a list of words
         list_of_words = command_string.split(" ")
 
         command_word = list_of_words[0]
-        if '' in command_word:
-            return
+    
         # If the command is not recognized, print an error message
         if command_word not in self.commands.keys():
             print(f"\nCommande '{command_word}' non reconnue. Entrez 'help' pour voir la liste des commandes disponibles.\n")

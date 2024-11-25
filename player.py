@@ -1,6 +1,6 @@
 # Define the Player class.
 class Player():
-     """
+    """
     This class represents a player in a text-based adventure game. A player has a name and is located in a specific room.
 
     Attributes:
