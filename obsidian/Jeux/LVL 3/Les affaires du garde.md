@@ -1,1 +1,0 @@
-Vous lui piquez ses affaires. 
