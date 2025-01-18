@@ -1,0 +1,37 @@
+{
+	"nodes":[
+		{"id":"81295fba74d5c4cd","type":"file","file":"Jeux/LVL1/Rue.md","x":480,"y":-260,"width":400,"height":400},
+		{"id":"39335f55dcc311bb","type":"file","file":"Jeux/LVL1/Appartement.md","x":-880,"y":-260,"width":400,"height":400,"color":"5"},
+		{"id":"e3bacb4035c7dd0c","type":"file","file":"Jeux/LVL1/PanneauSolaire.md","x":-880,"y":-1200,"width":400,"height":400},
+		{"id":"f900d7174e8cd387","type":"file","file":"Jeux/LVL1/Lac.md","x":480,"y":-1200,"width":400,"height":400,"color":"1"},
+		{"id":"8118d543b8424087","type":"file","file":"Jeux/LVL1/Clim.md","x":-2000,"y":-260,"width":400,"height":400},
+		{"id":"42dbd7812fc9f349","type":"file","file":"Jeux/LVL1/Clinique.md","x":480,"y":1495,"width":400,"height":400},
+		{"id":"fb59ae0af358e4c5","type":"file","file":"Jeux/LVL1/PorteClinique.md","x":760,"y":655,"width":400,"height":400},
+		{"id":"e8f41f369aab9826","type":"file","file":"Jeux/LVL1/PorteBoutique.md","x":2496,"y":655,"width":400,"height":400},
+		{"id":"18d38073ef610559","type":"file","file":"Jeux/LVL1/Combat.md","x":-480,"y":1495,"width":400,"height":400,"color":"1"},
+		{"id":"67f1a5ecd53a4ed5","type":"file","file":"Jeux/LVL2/00MapLVL2.canvas","x":2480,"y":-1280,"width":400,"height":400,"color":"4"},
+		{"id":"957b150856efc173","type":"file","file":"Jeux/LVL1/Boutique.md","x":2465,"y":-315,"width":431,"height":455}
+	],
+	"edges":[
+		{"id":"038559f2ae4ada84","fromNode":"39335f55dcc311bb","fromSide":"top","toNode":"e3bacb4035c7dd0c","toSide":"bottom","color":"4","label":"Vérifier les panneaux solaires (NPC)"},
+		{"id":"905a82e3fd71ee84","fromNode":"39335f55dcc311bb","fromSide":"right","toNode":"81295fba74d5c4cd","toSide":"left","color":"4","label":"Descendre dans la rue"},
+		{"id":"7d397f820c77d1f6","fromNode":"39335f55dcc311bb","fromSide":"top","toNode":"8118d543b8424087","toSide":"top","color":"4","label":"Vérifier la clim"},
+		{"id":"d67e5db6ddbd3236","fromNode":"81295fba74d5c4cd","fromSide":"bottom","toNode":"e8f41f369aab9826","toSide":"top","label":"Marcher vers la boutique d'électronique"},
+		{"id":"b6176b78e3a66c36","fromNode":"81295fba74d5c4cd","fromSide":"top","toNode":"f900d7174e8cd387","toSide":"bottom","label":"Marcher vers le lac"},
+		{"id":"1e61cb8dba07d49e","fromNode":"e8f41f369aab9826","fromSide":"top","toNode":"957b150856efc173","toSide":"bottom","label":"Entrer dans la boutique"},
+		{"id":"9150c8ef5a41d26f","fromNode":"e8f41f369aab9826","fromSide":"left","toNode":"fb59ae0af358e4c5","toSide":"right","label":"S'approcher de la clinique"},
+		{"id":"b3f0998be855045a","fromNode":"fb59ae0af358e4c5","fromSide":"bottom","toNode":"42dbd7812fc9f349","toSide":"top","label":"Forcer porte"},
+		{"id":"411cbaa8eeecd534","fromNode":"42dbd7812fc9f349","fromSide":"left","toNode":"18d38073ef610559","toSide":"right","label":"Rester dans clinique"},
+		{"id":"162b4582c7f4628d","fromNode":"e3bacb4035c7dd0c","fromSide":"right","toNode":"39335f55dcc311bb","toSide":"right","label":"Retour appartement"},
+		{"id":"5c61064ccdb00308","fromNode":"81295fba74d5c4cd","fromSide":"bottom","toNode":"39335f55dcc311bb","toSide":"bottom","label":"Retour appartement"},
+		{"id":"8f24ca74f01e8a13","fromNode":"8118d543b8424087","fromSide":"right","toNode":"39335f55dcc311bb","toSide":"left","label":"Retour appartement"},
+		{"id":"7f38cd755e09323a","fromNode":"e8f41f369aab9826","fromSide":"left","toNode":"81295fba74d5c4cd","toSide":"bottom","label":"Retour rue"},
+		{"id":"24c0847f24963613","fromNode":"957b150856efc173","fromSide":"left","toNode":"81295fba74d5c4cd","toSide":"right","label":"Retour rue"},
+		{"id":"452dfbc70050be93","fromNode":"957b150856efc173","fromSide":"top","toNode":"67f1a5ecd53a4ed5","toSide":"bottom","label":"Partir chez Artur Monk (XP)"},
+		{"id":"31ea067fa855a6ee","fromNode":"fb59ae0af358e4c5","fromSide":"top","toNode":"81295fba74d5c4cd","toSide":"bottom","label":"Retour rue"},
+		{"id":"596c6323912189de","fromNode":"f900d7174e8cd387","fromSide":"right","toNode":"81295fba74d5c4cd","toSide":"right","label":"Retour rue"},
+		{"id":"7344088de0722b13","fromNode":"42dbd7812fc9f349","fromSide":"left","toNode":"81295fba74d5c4cd","toSide":"bottom","label":"Retour rue"},
+		{"id":"186b93494eb64590","fromNode":"18d38073ef610559","fromSide":"top","toNode":"81295fba74d5c4cd","toSide":"bottom","label":"Retour Rue"},
+		{"id":"329c155808c4d634","fromNode":"957b150856efc173","fromSide":"left","toNode":"fb59ae0af358e4c5","toSide":"right","label":"S'approcher de la clinique"}
+	]
+}
