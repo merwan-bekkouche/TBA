@@ -1,6 +1,3 @@
 {
     "python.linting.pylintEnabled": true,
-    "workbench.colorCustomizations": {
-        "terminal.background": "#000000"
-    }
 }
