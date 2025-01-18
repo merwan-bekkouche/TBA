@@ -1,0 +1,38 @@
+{
+	"nodes":[
+		{"id":"7ffdd61500fbca13","type":"file","file":"Jeux/LVL2/CombatOuest.md","x":-840,"y":0,"width":400,"height":400},
+		{"id":"077ee55a546223ad","type":"file","file":"Jeux/LVL2/EnterOuest.md","x":-1600,"y":0,"width":360,"height":400},
+		{"id":"5aaae5497ae17ea2","type":"file","file":"Jeux/LVL2/EnterSudVilla.md","x":-46,"y":1520,"width":360,"height":360,"color":"5"},
+		{"id":"0bc9825d778490f5","type":"file","file":"Jeux/LVL2/CombatSud.md","x":-46,"y":720,"width":360,"height":285},
+		{"id":"8d4eb5543e16474e","type":"file","file":"Jeux/LVL2/WindowsNord.md","x":-86,"y":-1600,"width":380,"height":400},
+		{"id":"8cfced4e993a9ffa","type":"file","file":"Jeux/LVL2/QGgardes.md","x":-66,"y":0,"width":400,"height":400},
+		{"id":"4fd810dc31ff2f7f","type":"file","file":"Jeux/LVL2/EnterEst.md","x":2080,"y":0,"width":380,"height":400},
+		{"id":"5fd4b655787f2840","type":"file","file":"Jeux/LVL3/00MapLVL3.canvas","x":1000,"y":-1600,"width":400,"height":400,"color":"4"},
+		{"id":"37b55a5935875a08","type":"file","file":"Jeux/LVL2/CombatEst.md","x":1000,"y":0,"width":400,"height":400}
+	],
+	"edges":[
+		{"id":"d7cce6a92b651402","fromNode":"077ee55a546223ad","fromSide":"right","toNode":"7ffdd61500fbca13","toSide":"left","label":"Forcer porte"},
+		{"id":"48da737419680633","fromNode":"5aaae5497ae17ea2","fromSide":"top","toNode":"077ee55a546223ad","toSide":"bottom","label":"Contourner enceinte par l'ouest"},
+		{"id":"ca84f5f172a60094","fromNode":"077ee55a546223ad","fromSide":"top","toNode":"8d4eb5543e16474e","toSide":"bottom","label":"Contourner vers le nord"},
+		{"id":"0c5b9d664e540053","fromNode":"5aaae5497ae17ea2","fromSide":"top","toNode":"4fd810dc31ff2f7f","toSide":"bottom","label":"Contourner enceinte par l'est"},
+		{"id":"84a11d3a3ff1d9fe","fromNode":"4fd810dc31ff2f7f","fromSide":"left","toNode":"37b55a5935875a08","toSide":"right","label":"Forcer porte"},
+		{"id":"38fb66ab49d9da83","fromNode":"4fd810dc31ff2f7f","fromSide":"top","toNode":"8d4eb5543e16474e","toSide":"right","label":"Contourner vers le nord"},
+		{"id":"159d5372039f8303","fromNode":"37b55a5935875a08","fromSide":"left","toNode":"8cfced4e993a9ffa","toSide":"right","label":"QG (NPC)"},
+		{"id":"cea911b9bae530a7","fromNode":"7ffdd61500fbca13","fromSide":"right","toNode":"8cfced4e993a9ffa","toSide":"left","label":"QG (NPC)"},
+		{"id":"0ec5b5c0e7ebb157","fromNode":"0bc9825d778490f5","fromSide":"top","toNode":"8cfced4e993a9ffa","toSide":"bottom","label":"Vers QG des gardes"},
+		{"id":"ef078f7f48c653dc","fromNode":"8d4eb5543e16474e","fromSide":"bottom","toNode":"8cfced4e993a9ffa","toSide":"top","label":"Rejoindre QG des gardes"},
+		{"id":"3c738c6ebdcb2969","fromNode":"7ffdd61500fbca13","fromSide":"bottom","toNode":"077ee55a546223ad","toSide":"bottom","label":"Retour entrée ouest"},
+		{"id":"cb475952bb5d0b2f","fromNode":"0bc9825d778490f5","fromSide":"right","toNode":"5aaae5497ae17ea2","toSide":"right"},
+		{"id":"4ec26f59373d773c","fromNode":"37b55a5935875a08","fromSide":"top","toNode":"4fd810dc31ff2f7f","toSide":"top","label":"Retour entrée est"},
+		{"id":"12a8815f8b011fe9","fromNode":"8cfced4e993a9ffa","fromSide":"top","toNode":"5fd4b655787f2840","toSide":"bottom","label":"Remonter le tunnel (XP)"},
+		{"id":"21b4c732ccf2d90f","fromNode":"5aaae5497ae17ea2","fromSide":"top","toNode":"0bc9825d778490f5","toSide":"bottom","label":"Franchir voiture pour entrer"},
+		{"id":"4117ec97ab74452f","fromNode":"4fd810dc31ff2f7f","fromSide":"bottom","toNode":"5aaae5497ae17ea2","toSide":"right","label":"Retour entrée sud"},
+		{"id":"798846eb9d3044cc","fromNode":"077ee55a546223ad","fromSide":"bottom","toNode":"5aaae5497ae17ea2","toSide":"left","label":"Retour entrée sud"},
+		{"id":"b83c879f05647989","fromNode":"8cfced4e993a9ffa","fromSide":"bottom","toNode":"7ffdd61500fbca13","toSide":"bottom","label":"Retour jardin (NPC)"},
+		{"id":"f0e538a76099674e","fromNode":"8cfced4e993a9ffa","fromSide":"bottom","toNode":"37b55a5935875a08","toSide":"bottom","label":"Retour services (NPC)"},
+		{"id":"96cf1c568b7c4a20","fromNode":"8d4eb5543e16474e","fromSide":"left","toNode":"077ee55a546223ad","toSide":"top","label":"Retour entrée ouest"},
+		{"id":"704cfe26643a712c","fromNode":"8d4eb5543e16474e","fromSide":"bottom","toNode":"4fd810dc31ff2f7f","toSide":"top","label":"Retour entrée est"},
+		{"id":"f4512003c77f00ae","fromNode":"8cfced4e993a9ffa","fromSide":"right","toNode":"0bc9825d778490f5","toSide":"right","label":"Retour voiture"},
+		{"id":"e835cddb71654e49","fromNode":"8cfced4e993a9ffa","fromSide":"left","toNode":"8d4eb5543e16474e","toSide":"left","label":"Retourn entrée nord"}
+	]
+}
